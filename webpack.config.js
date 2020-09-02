@@ -5,6 +5,7 @@ const CopyPlugin = require("copy-webpack-plugin");
 
 module.exports = {
   mode: "development",
+  devtool: 'inline-source-map',
   optimization: {
     minimizer: [new OptimizeCssAssetsPlugin()],
   },
